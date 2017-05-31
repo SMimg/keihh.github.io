@@ -1799,7 +1799,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9f8bff;
+  background: #337a0d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2904,6 +2904,13 @@ body {
 }
 .site-meta .brand {
   color: #eee;
+}
+.site-author {
+  padding-top: 30px;
+  height: 136px;
+}
+.site-author-image {
+  height: 96px;
 }
 .menu {
   float: left;
