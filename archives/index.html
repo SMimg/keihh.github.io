@@ -90,12 +90,15 @@
 
 
 
+<meta name="description" content="治世不一道，便国不法古">
 <meta property="og:type" content="website">
 <meta property="og:title" content="夜枫林">
 <meta property="og:url" content="http://yefenglim.com/archives/index.html">
 <meta property="og:site_name" content="夜枫林">
+<meta property="og:description" content="治世不一道，便国不法古">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="夜枫林">
+<meta name="twitter:description" content="治世不一道，便国不法古">
 
 
 
@@ -112,9 +115,9 @@
       author: '博主'
     },
     algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
+      applicationID: 'XDX3K3JNWC',
+      apiKey: 'ca89c9c32d6e9e35919d11ca3b345938',
+      indexName: 'webblog',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
@@ -241,22 +244,26 @@
   
     <div class="site-search">
       
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
+  
+  <div class="algolia-popup popup search-popup">
+    <div class="algolia-search">
+      <div class="algolia-search-input-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <div class="algolia-search-input" id="algolia-search-input"></div>
+    </div>
+
+    <div class="algolia-results">
+      <div id="algolia-stats"></div>
+      <div id="algolia-hits"></div>
+      <div id="algolia-pagination" class="algolia-pagination"></div>
+    </div>
+
     <span class="popup-btn-close">
       <i class="fa fa-times-circle"></i>
     </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
   </div>
-  <div id="local-search-result"></div>
-</div>
+
 
 
 
@@ -406,7 +413,7 @@
                alt="夜枫林" />
           <p class="site-author-name" itemprop="name">夜枫林</p>
            
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">治世不一道，便国不法古</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -450,21 +457,21 @@
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/your-user-name" target="_blank" title="GitHub">
+                <a href="https://github.com/keihh" target="_blank" title="GitHub">
                   
                   GitHub
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://douban.com/people/your-user-name" target="_blank" title="豆瓣">
+                <a href="http://blog.csdn.net/lxm_bill" target="_blank" title="博客">
                   
-                  豆瓣
+                  博客
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://www.zhihu.com/people/your-user-name" target="_blank" title="知乎">
+                <a href="https://www.zhihu.com/people/li-xiao-ming-91-43" target="_blank" title="知乎">
                   
                   知乎
                 </a>
@@ -969,6 +976,19 @@
   </script>
 
 
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
+
+  
+  
+  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
+  
+
+  <script src="/js/src/algolia-search.js?v=5.1.1"></script>
 
 
 
