@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[电影列表]]></title>
+    <url>%2F2017%2F06%2F01%2F%E7%94%B5%E5%BD%B1%E5%88%97%E8%A1%A8%2F</url>
+    <content type="text"><![CDATA[电影列表2017年6月 异星觉醒 摔跤吧，爸爸]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+      <tags>
+        <tag>电影</tag>
+        <tag>电影列表</tag>
+        <tag>电影资源</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo教程]]></title>
     <url>%2F2017%2F05%2F30%2FHexo%E6%95%99%E7%A8%8B%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.]]></content>

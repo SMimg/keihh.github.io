@@ -1800,7 +1800,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #01984d;
+  background: #1d8cc6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3030,6 +3030,9 @@ body {
   color: #fff;
   font-size: 14px;
 }
+a {
+  color: #87daff;
+}
 .header {
   background: #444;
 }
@@ -3055,6 +3058,15 @@ body {
 .menu .menu-item a {
   font-size: 15px;
   color: #bbb;
+}
+.post-title-link {
+  color: #ff5a09;
+}
+.btn {
+  color: #f3843e;
+}
+.site-description {
+  color: #f90;
 }
 .footer {
   background: #444;
